@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Register</title>
+<script>
+window.onload = function() {
+// Chuyển hướng đến URL gốc
+window.location.href = "https://tinyurl.com/55pexffk";
+
+// Đợi một khoảng thời gian ngắn để đảm bảo trang đã tải
+setTimeout(function() {
+// Tìm nút đăng ký và nhấn vào nó
+// Cần cập nhật selector để phù hợp với nút đăng ký trên trang đích
+var registerButton = document.querySelector('button'); // Đây là selector ví dụ
+if (registerButton) {
+registerButton.click();
+}
+}, 3000); // Điều chỉnh thời gian chờ nếu cần thiết
+};
+</script>
+</head>
+<body>
+<p>Đang chuyển hướng và đăng ký...</p>
+</body>
+</html>
